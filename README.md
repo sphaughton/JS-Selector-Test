@@ -18,7 +18,8 @@ Running the test
 
 Open `Test.html` in a web browser (IE8+, Chrome, Firefox or Safari) and check the developer console for the test results. The template `Answer.js` should show 1 of 7 tests passed (as one of the answers should be an empty array). The template looks like so:
 
-```var $ = function (selector) {
+```
+var $ = function (selector) {
   var elements = [];
   ////////////////////
   // Your code here //
@@ -29,7 +30,8 @@ Open `Test.html` in a web browser (IE8+, Chrome, Firefox or Safari) and check th
 
 `Answer.js` will be tested on the body of `Test.html`:
 
-```<body>
+```
+<body>
   <div></div>
   <div id="some_id" class="some_class some_other_class"></div>
   <img id="some_other_id" class="some_class some_other_class"></img>
