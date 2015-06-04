@@ -24,7 +24,8 @@ Open `Test.html` in a web browser (IE8+, Chrome, Firefox or Safari) and check th
   // Your code here //
   ////////////////////
   return elements;
-}```
+}
+```
 
 `Answer.js` will be tested on the body of `Test.html`:
 
@@ -33,7 +34,8 @@ Open `Test.html` in a web browser (IE8+, Chrome, Firefox or Safari) and check th
   <div id="some_id" class="some_class some_other_class"></div>
   <img id="some_other_id" class="some_class some_other_class"></img>
   <input type="text">
-</body>```
+</body>
+```
 
 The following calls to your function will be made. Your function should return an array of DOM elements that match the CSS selector.
 
